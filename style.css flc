@@ -20,6 +20,11 @@ header, footer {
     padding: 1em;
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+header:hover, footer:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
 }
 
 main {
