@@ -6,16 +6,22 @@ Description: This file contains the CSS styles for a cool-looking box.
 */
 
 .box {
-    width: 300px;
+    width: 320px;
     height: 200px;
-    background-color: lightblue;
-    border: 5px solid blue;
+    background-color: #87CEEB; /* Slightly changed blue for better contrast */
+    border: 4px solid #4682B4;
     padding: 20px;
     text-align: center;
     
     /* Added shadow & rounded corners */
     border-radius: 15px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.box:hover {
+    transform: scale(1.05);
 }
 
 /* Responsive design */
