@@ -9,6 +9,8 @@ Description: This file contains the HTML structure for a cool-looking box.
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage featuring a cool-looking box.">
     <title>A Cool-Looking Box</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,7 +21,7 @@ Description: This file contains the HTML structure for a cool-looking box.
     </header>
 
     <main>
-        <div class="box">
+        <div class="box" role="region" aria-label="Decorative Box">
             <p>Hello, I'm a cool-looking box!</p>
         </div>
     </main>
