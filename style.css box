@@ -1,5 +1,15 @@
-html {
-  font-family: sans-serif;
-}
+/*
+Name: Waris Samadi
+File: style.css
+Date: 23 February 2025
+Description: This file contains the CSS styles for a cool-looking box.
+*/
 
-/* Your CSS below here */
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    border: 5px solid blue;
+    padding: 20px;
+    text-align: center;
+}
