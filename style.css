@@ -1,20 +1,16 @@
-/* Improve mobile responsiveness */
-body {
-    padding: 2em;
-    max-width: 800px;
-    margin: auto;
+/* Final styling improvements */
+.job-title {
+    color: #5D6D7E; /* Slightly darker grey */
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
-@media (max-width: 600px) {
-    body {
-        padding: 1em;
-    }
-    
-    h1 {
-        font-size: 2em;
-    }
-    
-    h2 {
-        font-size: 1.2em;
-    }
+a:link, a:visited {
+    color: #2874A6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1B4F72;
 }
