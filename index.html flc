@@ -1,20 +1,23 @@
 <!--
     Name: Waris Samadi
     File: index.html
-    Date: 23 Feb 2025
-    Description: This file contains the HTML structure for a typeset homepage.
+    Date: 23 February 2025
+    Description: This file contains the HTML structure for a fundamental layout comprehension exercise.
 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Typesetting a Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Waris Samadi's personal homepage showcasing his web development projects and skills.">
+    <meta name="author" content="Waris Samadi">
+    <title>Fundamental Layout Comprehension</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Welcome to My Personal Homepage</h1>
-        <nav>
+        <nav aria-label="Main Navigation">
             <ul>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">My Projects</a></li>
@@ -22,22 +25,23 @@
         </nav>
     </header>
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! My name is Waris Samadi, and this is my personal homepage.</p>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>Hello! My name is Waris Samadi, and this is my personal homepage. I am passionate about web development and design.</p>
         </section>
-        <section id="projects">
-            <h2>My Projects</h2>
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">My Projects</h2>
             <p>Here are some of the projects I've worked on:</p>
             <ul>
                 <li>Project 1: Web Development Fundamentals</li>
                 <li>Project 2: CSS Styling Techniques</li>
+                <li>Project 3: Responsive Design Practice</li>
             </ul>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Waris Samadi. All rights reserved.</p>
-        <p>Contact me at: waris@example.com</p>
+        <p>&copy; 2025 Waris Samadi. All rights reserved.</p>
+        <p>Contact me at: <a href="mailto:waris@example.com">waris@example.com</a></p>
     </footer>
 </body>
 </html>
