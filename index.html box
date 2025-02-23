@@ -13,8 +13,20 @@ Description: This file contains the HTML structure for a cool-looking box.
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="box">
-        <p>Hello, I'm a cool-looking box!</p>
-    </div>
+
+    <header>
+        <h1>Welcome to My Cool Box Page</h1>
+    </header>
+
+    <main>
+        <div class="box">
+            <p>Hello, I'm a cool-looking box!</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Waris Samadi</p>
+    </footer>
+
 </body>
 </html>
