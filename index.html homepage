@@ -12,7 +12,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a demonstration of typesetting techniques using CSS.</p>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <main>
+        <p>This is a demonstration of typesetting techniques using CSS.</p>
+    </main>
+    <footer>
+        <p>&copy; 2023 Waris Samadi. All rights reserved.</p>
+    </footer>
 </body>
 </html>
