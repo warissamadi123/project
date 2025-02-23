@@ -1,7 +1,7 @@
 <!--
     Name: Waris Samadi
     File: index.html
-    Date: 26 September 2023
+    Date: 23 Feb 2025
     Description: This file contains the HTML structure for a typeset homepage.
 -->
 <!DOCTYPE html>
@@ -13,20 +13,31 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Homepage</h1>
+        <h1>Welcome to My Personal Homepage</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">My Projects</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
+        <section id="about">
             <h2>About Me</h2>
-            <p>This is some content about me.</p>
+            <p>Hello! My name is Waris Samadi, and this is my personal homepage.</p>
         </section>
-        <section>
+        <section id="projects">
             <h2>My Projects</h2>
-            <p>This section lists my projects.</p>
+            <p>Here are some of the projects I've worked on:</p>
+            <ul>
+                <li>Project 1: Web Development Fundamentals</li>
+                <li>Project 2: CSS Styling Techniques</li>
+            </ul>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Example. All rights reserved.</p>
+        <p>&copy; 2023 Waris Samadi. All rights reserved.</p>
+        <p>Contact me at: waris@example.com</p>
     </footer>
 </body>
 </html>
