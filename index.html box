@@ -1,12 +1,20 @@
+<!--
+Name: Waris Samadi
+File: index.html
+Date: 23 February 2025
+Description: This file contains the HTML structure for a cool-looking box.
+-->
+
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Cool box</title>
-    <!-- your css link goes here -->
-  </head>
-  <body>
-    <div>This is a cool box</div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>A Cool-Looking Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <p>Hello, I'm a cool-looking box!</p>
+    </div>
+</body>
 </html>
