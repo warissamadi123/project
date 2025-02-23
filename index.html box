@@ -24,10 +24,14 @@ Description: This file contains the HTML structure for a cool-looking box.
         <div class="box" role="region" aria-label="Decorative Box">
             <p>Hello, I'm a cool-looking box!</p>
         </div>
+        <section class="info">
+            <h2>About This Box</h2>
+            <p>This is a demonstration of CSS styling using borders, shadows, and hover effects.</p>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Waris Samadi</p>
+        <p>&copy; 2025 Waris Samadi. All rights reserved.</p>
     </footer>
 
 </body>
