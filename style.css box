@@ -12,4 +12,8 @@ Description: This file contains the CSS styles for a cool-looking box.
     border: 5px solid blue;
     padding: 20px;
     text-align: center;
+    
+    /* Added shadow & rounded corners */
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
