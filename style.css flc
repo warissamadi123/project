@@ -18,6 +18,8 @@ header, footer {
     color: white;
     text-align: center;
     padding: 1em;
+    border-radius: 10px; /* Added rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
 }
 
 main {
