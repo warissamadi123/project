@@ -1,3 +1,10 @@
+/*
+    Name: Waris Samadi
+    File: style.css
+    Date: 23 February 2025
+    Description: This file contains the CSS styles for a fundamental layout comprehension exercise.
+*/
+
 body {
     background-color: #fff;
     color: #333;
