@@ -1,39 +1,26 @@
-<!--
-    Name: Waris Samadi
-    File: index.html
-    Date: 26 September 2023
-    Description: This file contains the HTML structure for a fundamental layout comprehension exercise.
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamental Layout Comprehension</title>
+    <title>Typesetting a Homepage</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Fundamental Layout Comprehension</h1>
-        <nav>
-            <ul>
-                <li><a href="#section1">Section 1</a></li>
-                <li><a href="#section2">Section 2</a></li>
-            </ul>
-        </nav>
+        <h1>Welcome to My Homepage</h1>
     </header>
     <main>
-        <section id="section1">
-            <h2>Section 1</h2>
-            <p>This is some content for section 1.</p>
+        <section>
+            <h2>About Me</h2>
+            <p>This is some content about me.</p>
         </section>
-        <section id="section2">
-            <h2>Section 2</h2>
-            <p>This is some content for section 2.</p>
+        <section>
+            <h2>My Projects</h2>
+            <p>This section lists my projects.</p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Waris Samadi. All rights reserved.</p>
+        <p>&copy; 2023 Example. All rights reserved.</p>
     </footer>
 </body>
 </html>
