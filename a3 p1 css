@@ -1,3 +1,10 @@
+/*
+Name: Waris Samadi
+File: style.css
+Date: 2025=02=23
+Description: This file contains the CSS styles for the biography page.
+*/
+
 body {
     background-color: #fff;
     color: #333;
