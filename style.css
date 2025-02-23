@@ -1,12 +1,56 @@
-/* Final styling improvements */
+/*
+Name: Waris Samadi
+File: style.css
+Date: 23 February 2025
+Description: This file contains the CSS styles for the biography page.
+*/
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+    margin: 0;
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: #2E86C1;
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 5px solid #2874A6;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #1B4F72;
+}
+
 .job-title {
     color: #5D6D7E; /* Slightly darker grey */
     font-weight: bold;
     font-size: 1.2em;
 }
 
+/* Improve mobile responsiveness */
+@media (max-width: 600px) {
+    body {
+        padding: 1em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
 a:link, a:visited {
-    color: #2874A6;
+    color: #2874A6; /* Changed link color to match headings */
     text-decoration: none;
 }
 
