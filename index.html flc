@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Fundamental Layout Comprehension</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fundamental Layout Comprehension</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Section 1</h2>
+            <p>This is some content for section 1.</p>
+        </section>
+        <section>
+            <h2>Section 2</h2>
+            <p>This is some content for section 2.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Example. All rights reserved.</p>
+    </footer>
+</body>
+</html>
